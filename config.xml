@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="ca.edumedia.stra0165.goalcraving" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>STRA0165 Goal Craving</name>
+    <description>
+        This is a soccer based application to provide scores and schedules for Premiere League games.
+    </description>
+    <author email="stra0165@algonquinlive.com" href="https://github.com/robsonscm">
+        Robson Miranda
+    </author>
+    <content src="index.html" />
+    <preference name="SplashScreen" value="screen"/>
+    <preference name="SplashScreenDelay" value="5000"/>
+    <plugin name="cordova-plugin-whitelist" spec="1" />
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <platform name="android">
+        <allow-intent href="market:*" />
+        <!-- you can use any density that exists in the Android project -->
+        <splash src="www/img/splash/splash-landscape-200x300px-8.png"    density="land-ldpi"/>
+        <splash src="www/img/splash/splash-landscape-320x480px-8.png"    density="land-mdpi"/>
+        <splash src="www/img/splash/splash-landscape-480x800px-8.png"    density="land-hdpi"/>
+        <splash src="www/img/splash/splash-landscape-720px1280px-8.png" density="land-xhdpi"/>
+        <splash src="www/img/splash/splash-landscape-960px1600px-8.png"  density="land-xxhdpi"/>
+        <splash src="www/img/splash/splash-landscape-1280px1920px-8.png" density="land-xxxhdpi"/>
+        <!---->
+        <splash src="www/img/splash/splash-portrait-200x300px-8.png"    density="port-ldpi"/>
+        <splash src="www/img/splash/splash-portrait-320x480px-8.png"    density="port-mdpi"/>
+        <splash src="www/img/splash/splash-portrait-480x800px-8.png"    density="port-hdpi"/>
+        <splash src="www/img/splash/splash-portrait-720px1280px-8.png" density="port-xhdpi"/>
+        <splash src="www/img/splash/splash-portrait-960px1600px-8.png"  density="port-xxhdpi"/>
+        <splash src="www/img/splash/splash-portrait-1280px1920px-8.png" density="port-xxxhdpi"/>
+        <!---->
+        <icon src="www/img/icons/icon48x48-8.png"   density="ldpi" />
+        <icon src="www/img/icons/icon72x72-8.png"   density="mdpi" />
+        <icon src="www/img/icons/icon96x96-8.png"   density="hdpi" />
+        <icon src="www/img/icons/icon144x144-8.png" density="xhdpi" />
+        <icon src="www/img/icons/icon192x192-8.png" density="xxhdpi" />
+        <icon src="www/img/icons/icon512x512-8.png" density="xxxhdpi" />
+        <!---->
+    </platform>
+    <preference name="AutoHideSplashScreen" value="true" /> <!-- don't wait for script to hide the splashscreen -->
+    <preference name="SplashScreenDelay" value="5000" />  <!--  wait 10 seconds before hiding splashscreen -->
+    <preference name="SplashMaintainAspectRatio" value="true" />
+    <preference name="SplashShowOnlyFirstTime" value="false" />
+    <platform name="ios">
+        <allow-intent href="itms:*" />
+        <allow-intent href="itms-apps:*" />
+    </platform>
+</widget>

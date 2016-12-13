@@ -1,0 +1,124 @@
+{
+  "teams": [
+    {
+      "id": 639,
+      "name": "West Ham United FC"
+    },
+    {
+      "id": 325,
+      "name": "Swansea City FC"
+    },
+    {
+      "id": 665,
+      "name": "Everton FC"
+    },
+    {
+      "id": 220,
+      "name": "Leicester City FC"
+    }
+  ],
+  "scores": [
+    {
+      "date": "2017-06-12",
+      "games": [
+        {
+          "home": 639,
+          "away": 325,
+          "home_score": 3,
+          "away_score": 3
+        },
+        {
+          "home": 665,
+          "away": 220,
+          "home_score": 1,
+          "away_score": 6
+        }
+      ]
+    },
+    {
+      "date": "2017-06-19",
+      "games": [
+        {
+          "home": 639,
+          "away": 665,
+          "home_score": 17,
+          "away_score": 8
+        },
+        {
+          "home": 325,
+          "away": 220,
+          "home_score": 2,
+          "away_score": 0
+        }
+      ]
+    },
+    {
+      "date": "2017-06-26",
+      "games": [
+        {
+          "home": 639,
+          "away": 220,
+          "home_score": 16,
+          "away_score": 16
+        },
+        {
+          "home": 325,
+          "away": 665,
+          "home_score": 6,
+          "away_score": 13
+        }
+      ]
+    },
+    {
+      "date": "2017-07-03",
+      "games": [
+        {
+          "home": 325,
+          "away": 639,
+          "home_score": 19,
+          "away_score": 17
+        },
+        {
+          "home": 220,
+          "away": 665,
+          "home_score": 9,
+          "away_score": 18
+        }
+      ]
+    },
+    {
+      "date": "2017-07-10",
+      "games": [
+        {
+          "home": 665,
+          "away": 639,
+          "home_score": 5,
+          "away_score": 9
+        },
+        {
+          "home": 220,
+          "away": 325,
+          "home_score": 2,
+          "away_score": 0
+        }
+      ]
+    },
+    {
+      "date": "2017-07-17",
+      "games": [
+        {
+          "home": 220,
+          "away": 639,
+          "home_score": 16,
+          "away_score": 17
+        },
+        {
+          "home": 665,
+          "away": 325,
+          "home_score": 18,
+          "away_score": 17
+        }
+      ]
+    }
+  ]
+}
